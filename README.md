@@ -2,6 +2,9 @@
 <strong>This guide outlines the steps to set up static website hosting using Amazon S3, CloudFront as a Content Delivery Network (CDN), and a CI/CD pipeline with AWS CodePipeline.
 The visuals included help illustrate each step of the process.</strong>
 
+![Screenshot_2](https://github.com/user-attachments/assets/647fbf9e-73b5-42a6-af3a-2d2dbc275234)
+
+
 - **Step 1: Create an S3 Bucket**<br>
 <strong>First, create an S3 bucket that will host your static website. Ensure that you configure the bucket name correctly and keep it unique across all AWS accounts.</strong>
 ![s3 bucket](https://github.com/user-attachments/assets/c0d207b6-25c1-430b-bba7-7f40d050f4f0)
