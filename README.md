@@ -49,3 +49,14 @@ The visuals included help illustrate each step of the process.</strong>
 # [Access Control Verification]
 <strong>Finally, verify that direct access to the S3 bucket is denied due to the effective use of the Origin Access Control (OAC).</strong>
 ![OAC is enabled](https://github.com/user-attachments/assets/917a6bc7-d1ac-4014-bc7a-37ee1574420c)
+
+# [Integrating Route 53 with CloudFront using CNAME]
+<strong> we will discuss how to integrate your domain name with Amazon CloudFront using Amazon Route 53. If you do not currently own a domain name, this explanation provides a general overview of the steps you would take once you have one.</STRONG><br>
+<strong> Note: You can use an alias record for integration, but keep in mind that the resource must be available in the us-east-1 region. This is a common requirement for certain AWS services</strong>
+
+- **Add a CNAME Record**<br>
+<strong>If you already own a domain name, you would create a CNAME record that points your domain to the CloudFront distribution. I'm not using an alias because my resource is located in the ap-south region.</strong>
+
+![route53 add record](https://github.com/user-attachments/assets/5dc7f3f7-b9b9-435f-bef7-2897537acecc)
+![route53 records](https://github.com/user-attachments/assets/1ba351fb-123d-4a6d-bc31-245dbad14408)
+
